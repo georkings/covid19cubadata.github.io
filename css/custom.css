@@ -486,6 +486,16 @@ table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:b
     width: 100%;
 }
 
+a.headerlink {
+    color: transparent;
+    margin-left: 10px;
+    //margin-right: 10px;
+}
+
+div.card-header:hover a.headerlink {
+    color: white;
+}
+
 @media (min-width: 576px) {
 
     #stats-cards .card {
